@@ -60,10 +60,9 @@ nav a{
 /* header related styles */
 .header{
     background-color: #fff8f3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: right;
-    
+    background-position: right, top left;    
     
 }
 
@@ -72,10 +71,13 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
-.banner .profile-picture{
-    width: 500px;
+.profile-picture{
+   
+   
+   
 }   
 
 .banner-greeting{
