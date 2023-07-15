@@ -1,73 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web-developer-portfolio</title>
-    <link ref="preconnect" href="https://fonts.googleapis.com">
+    <title>Web Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="styles/portfolio.css">
+    <script src="https://kit.fontawesome.com/f056a62cc9.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header class="header">
-        
         <nav>
-          <h3 class="nav-title">Az<span class="text-primary">h</span>ar</h3>
-          <ul>
-              <li><a href="">Portfolio</a></li>
-              <li a href="">Blog</li>
-              <li><button class="btn-primary">Hire me</button></li>
-          </ul>
+            <h3 class="nav-title">Az<span class="text-primary">h</span>ar</h3>
+            <ul>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Blog</a></li>
+                <li><button class="btn-primary">Hire Me</button></li>
+            </ul>
         </nav>
-        
         <div class="banner">
-        <div class="banner-content">
-        <h3 class="banner-greeting">Hi, I  am</h3>
-        <h1  class="baner-title">A K M Azhar</h1>
-        <p class="banner-description">With six years of experience, I am a versatile freelancer skilled in Web Development | Professional Writing. Discover more about my expertise below.</p>
-        <button class="btn-primary">Download CV</button>
-        <button class="btn-primary">Contact</button>
-
-    </div>
-        
-        <img class="profile-pic" src="images/azhar.png" alt="">
-
-    </div>
-
+            <div class="banner-content">
+                <h3 class="banner-greeting">Hi, I am</h3>
+                <h1 class="banner-title">A K M Azhar</h1>
+                <p class="banner-description">With three years of experience, I am a versatile freelancer skilled in Web Development | Professional Writing. Discover more about my expertise below.</p>
+                <button class="btn-primary"><i class="fa-solid fa-download"></i> Download CV</button>
+                <button class="btn-primary"><i class="fa-solid fa-phone"></i> Contact</button>
+            </div>
+            <img class="profile-pic" src="images/azh.png" alt="">
+        </div>
+    </header>
     <main>
-    <section class="about">
-    <h3 class="section-title">About Me</h3>
-    <p section description>As a dynamic freelancer skilled in both Web Development and Professional Writing, I bring a unique blend of technical expertise and creative flair to every project. With a passion for crafting exceptional user experiences, I specialize in building responsive and visually captivating websites. Simultaneously, my proficiency in professional writing allows me to create engaging and persuasive content that resonates with the target audience. With a proven track record of delivering high-quality work, I am dedicated to exceeding client expectations while adhering to strict deadlines. Whether it's coding a seamless website or penning compelling copy, I thrive on the challenges and rewards of my profession. Let's collaborate and bring your vision to life.</p>
-    <p>
-        <div class="about-info-container">
-        <div class="about-info">
-            <h4 class="info-title">Name:</h4>
-            <p class="info-description">A K M Azhar</p>
-        </div>
-        <div class="about-info">
-            <h4 class="info-title">E-mail:</h4>
-            <p class="info-description">akmazharshuvo07@gmail.com</p>
-        </div>
-        <div class="about-info">
-            <h4 class="info-title">Date of Birth</h4>
-            <p class="info-description">January 01, 1984</p>
-        </div>
-        <div class="about-info">
-            <h4 class="info-title">From</h4>
-            <p class="info-description">Feni, Bangladesh.</p>
-        </div>
-        </div>            
-    </p>
-     <section>
-        <h3 class="section-title">What I do</h3>
-        <p class="section-description"></p>
-     </section>
-</main>
+        <section class="about">
+            <h3 class="section-title"  style="color:blue;">About Me</h3>
+            <p class="section-description">
+                As a dynamic freelancer skilled in both Web Development and Professional Writing, I bring a unique blend of technical expertise and creative flair to every project. With a passion for crafting exceptional user experiences, I specialize in building responsive and visually captivating websites. Simultaneously, my proficiency in professional writing allows me to create engaging and persuasive content that resonates with the target audience. With a proven track record of delivering high-quality work, I am dedicated to exceeding client expectations while adhering to strict deadlines. Whether it's coding a seamless website or penning compelling copy, I thrive on the challenges and rewards of my profession. Let's collaborate and bring your vision to life.
+            </p>
+            <div class="about-info-container">
+                <!-- .about-info*4>h4.info-title+p.info-description -->
+                <div class="about-info">
+                    <h4 class="info-title">Name:</h4>
+                    <p class="info-description">A K M Azarul Islam</p>
+                </div>
+                <div class="about-info">
+                    <h4 class="info-title">Email:</h4>
+                    <p class="info-description">kmazharshuvo07@gmail.com</p>
+                </div>
+                <div class="about-info">
+                    <h4 class="info-title">Date of birth:</h4>
+                    <p class="info-description">1st January 1984</p>
+                </div>
+                <div class="about-info">
+                    <h4 class="info-title">From:</h4>
+                    <p class="info-description">Feni, Chattogram, Bangladesh</p>
+                </div>
+            </div>
+        </section>
+
+    
+        <section>
+            <h3 class="section-title" style="color:blue;">What I do</h3>
+            <p id="what-i-do-description" class="section-description">
+                I have more than  three years experience building software for clients all over the world. Below is a quick
+                overview of my main technical skill sets and technologies i use. Want to find out more about my
+                experience? Check out my online resume and project portfolio.
+            </p>
+            <div class="skills-container">
+                <!-- .skill*4>img+h3.skill-title+p.skill-description -->
+                <div class="skill">
+                    <img src="images/icons/js.png" alt="">
+                    <h3 class="skill-title">Vanilla JavaScript</h3>
+                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of
+                        the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/react.png" alt="">
+                    <h3 class="skill-title">React</h3>
+                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of
+                        the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/nodejs.png" alt="">
+                    <h3 class="skill-title">Node.js</h3>
+                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of
+                        the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/mongo.png" alt="">
+                    <h3 class="skill-title">MongoDB</h3>
+                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of
+                        the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3 class="section-title" style="color:blue;">A summary of My Resume</h3>
+
+            <div class="resume-container">
+
+                <div class="resume-column">
+                    <h3 class="resume-column-title" style="color:green;">My Education</h3>
+
+                    <div class="resume-item">
+                        <h2 class="resume-item-title">Diploma in Web Developement</h2>
+                        <h3 class="resume-item-institute">Programming Hero / 2023</h3>
+                        <p class="resume-item-description">List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+                    <hr>
+
+                    <div class="resume-item">
+                        <h2 class="resume-item-title">Master in English</h2>
+                        <h3 class="resume-item-institute">International Islamic University / 2011 - 2012</h3>
+                        <p class="resume-item-description">List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="resume-item">
+                        <h2 class="resume-item-title">Bachelor in English</h2>
+                        <h3 class="resume-item-institute">International Islamic University / 2006 - 2010</h3>
+                        <p class="resume-item-description">List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+                    
+
+                    
+
+                </div>
+                <div class="resume-column">
+                    <h3 class="resume-column-title" style="color:green;">My Experience</h3>
+                
+                    <div class="resume-item">
+                        <h2 class="resume-item-title">Master in Computer Engineering</h2>
+                        <h3 class="resume-item-institute">Harvard University / 2015 - 2017</h3>
+                        <p class="resume-item-description">List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="resume-item">
+                        <h2 class="resume-item-title">Master in Computer Engineering</h2>
+                        <h3 class="resume-item-institute">Harvard University / 2015 - 2017</h3>
+                        <p class="resume-item-description">List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="resume-item">
+                        <h2 class="resume-item-title">Master in Computer Engineering</h2>
+                        <h3 class="resume-item-institute">Harvard University / 2015 - 2017</h3>
+                        <p class="resume-item-description">List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="download-cv">
+                <button class="btn-primary"><i class="fa-solid fa-download"></i> Download CV</button>
+            </div>
+        </section>
+    </main>
+  
     <footer>
-        
+        <div class="footer-column">
+            <h3 class="section-title"  style="color:blue;">Lets Connect</h3>
+            <p class="section-description">
+                Please fill out the form on this section to contact with me or call between 9:00 A.M & 8.00 P.M ET, Monday through Friday.
+            </p>
+            <div class="social-links">
+                <a target="_blank" href="https://www.instagram.com/akmazharahmed/"><img src="images/icons/insta.png" alt=""></a>
+                <a target="_blank" href="https://www.linkedin.com/in/a-k-m-azarul-islam-3a9499167/"><img src="images/icons/linkedin.png" alt=""></a>
+                <a target="_blank" href="https://www.facebook.com/akmazharabrartinni/"><img src="images/icons/facebook.png" alt=""></a>
+                <a target="_blank" href="https://github.com/akmazhar"><img src="images/icons/github.png" alt=""></a>
+                <a target="_blank" href="https://twitter.com/akm_azhar"><img src="images/icons/twitter.png" alt=""></a>
+                
+            </div>
+        </div>
+        <div class="footer-column">
+            <h3 class="section-title"  style="color:blue;">Let’s Message me. Right Now.</h3>
+            <form class="contact" action="">
+                <input type="text" placeholder="Your Name">
+                <input type="email" name="" placeholder="Your Email" id="">
+                <textarea name="" placeholder="Message" id="" cols="30" rows="10"></textarea>
+                <input class="btn-primary" type="submit" value="Submit">
+            </form>
+        </div>
     </footer>
 </body>
+
 </html>
 
